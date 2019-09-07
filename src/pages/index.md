@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Testing Changes from Netlify CMS
-image: /img/home-jumbotron.jpg
+title: Lonestar Adventure Cast
+image: /img/mick-haupt-a0gv-ygm8iy-unsplash.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: ayyyyyyyyyyyyy
 mainpitch:
   title: Why Kaldi
   description: >
