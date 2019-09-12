@@ -21,6 +21,12 @@ tags:
 ---
 https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001
 
-
-
 Tune into this laidback conversation about the pursuit of passion, brought to you by the Lone Star Adventurecast crew & Special Guest Artist Glenn Edinburgh.
+
+https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001
+
+https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-002
+
+https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-003
+
+https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-004
