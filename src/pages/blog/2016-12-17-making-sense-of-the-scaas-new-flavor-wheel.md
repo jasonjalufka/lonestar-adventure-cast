@@ -1,10 +1,14 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: The benefits of traveling alone
 date: 2016-12-17T15:04:10.000Z
+description: >-
+  Traveling alone is often intimidating; no one to connect with and the social
+  pressure of meeting new people. There is a brighter side to this kind of
+  adventure, and we will explore how traveling alone could be the challenge we
+  need to grow.
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
 tags:
   - flavor
   - tasting
