@@ -1,8 +1,12 @@
 ---
 templateKey: blog-post
-title: Adding blog entries from Netlify CMS
+title: Staying Driven
 date: 2019-09-06T22:39:03.398Z
-description: Testing how to do this to see what it's like
+description: >-
+  In a world of insta stars and complete savages in the limelight of social
+  media, how does one stay driven? Even one days of wanting to shovel cosmic
+  brownies and ice cream down your throat. Let's talk with our buddy Mark Shatz
+  about how to stay driven and grow.
 featuredpost: true
 featuredimage: /img/img_1573.jpg
 tags:
