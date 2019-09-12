@@ -1,4 +1,4 @@
-var proxy = require('http-proxy-middleware');
+var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
@@ -37,6 +37,15 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-embed-soundcloud',
+            options: {
+              width: '100%',
+              height: 300,
+              color: 'FF4400',
+              autoplay: false
+            }
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -87,6 +96,6 @@ module.exports = {
           '/.netlify/functions/': ''
         }
       })
-    );
+    )
   }
-};
+}
