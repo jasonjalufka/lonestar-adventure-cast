@@ -13,28 +13,28 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  intro
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className='full-width-image margin-top-0'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundAttachment: `fixed`
       }}
     >
       <div
-        className="image-overlay"
+        className='image-overlay'
         style={{
           width: `100%`,
           height: `100%`,
-          backgroundColor: `rgba(0, 0, 0, 0.5)`,
+          backgroundColor: `rgba(0, 0, 0, 0.3)`,
           display: `flex`,
           flexDirection: `column`,
-          justifyContent: `space-around`,
+          justifyContent: `space-around`
         }}
       >
         <div
@@ -44,25 +44,26 @@ export const IndexPageTemplate = ({
             lineHeight: '1',
             justifyContent: 'space-around',
             alignItems: 'center',
-            flexDirection: 'column',
+            flexDirection: 'column'
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
             style={{
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
+              textAlign: 'center'
             }}
           >
             {title}
           </h1>
           <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'
             style={{
               color: 'white',
               lineHeight: '1',
-              padding: '0.25em',
+              padding: '0.25em'
             }}
           >
             {subheading}
@@ -70,43 +71,43 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+    <section className='section section--gradient'>
+      <div className='container'>
+        <div className='section'>
+          <div className='columns'>
+            <div className='column is-12'>
+              <div className='content'>
+                <div className='content'>
+                  <div className='tile'>
+                    <h1 className='title'>{mainpitch.title}</h1>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div className='tile'>
+                    <h3 className='subtitle'>{mainpitch.description}</h3>
                   </div>
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                <div className='columns'>
+                  <div className='column is-12'>
+                    <h3 className='has-text-weight-semibold is-size-2'>
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                {/* <div className='columns'>
+                  <div className='column is-12 has-text-centered'>
+                    <Link className='btn' to='/products'>
                       See all products
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                </div> */}
+                <div className='column is-12'>
+                  <h3 className='has-text-weight-semibold is-size-2'>
                     Latest stories
                   </h3>
                   <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                  <div className='column is-12 has-text-centered'>
+                    <Link className='btn' to='/blog'>
                       Read more
                     </Link>
                   </div>
@@ -128,8 +129,8 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+    blurbs: PropTypes.array
+  })
 }
 
 const IndexPage = ({ data }) => {
@@ -153,9 +154,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+      frontmatter: PropTypes.object
+    })
+  })
 }
 
 export default IndexPage
@@ -183,11 +184,12 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 300, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
+            pagelink
             text
           }
           heading
