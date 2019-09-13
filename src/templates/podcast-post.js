@@ -100,7 +100,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         templateKey
-        podcastlink
         date(formatString: "MMMM DD, YYYY")
         title
         description

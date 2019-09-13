@@ -33,7 +33,6 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Podcast Link", name: "podcastlink", widget: "markdown", hint: "ex: https://soundcloud.com/user-434494160/lone-star-adventurecast-004"}
       - {label: "Body", name: "body", widget: "markdown", hint: "Include soundcloud link anywhere you want it to appear embedded in post"}
       - {label: "Tags", name: "tags", widget: "list"}
 

@@ -5,7 +5,6 @@ date: 2019-09-11T22:11:36.653Z
 description:
 featuredpost: true
 featuredimage: /img/img_1573.jpg
-podcastlink: 'https://soundcloud.com/user-434494160/lone-star-adventurecast-004'
 tags:
   - podcast
 ---
