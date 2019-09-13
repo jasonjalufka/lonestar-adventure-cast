@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Lonestar Adventure Cast
-image: /img/mick-haupt-a0gv-ygm8iy-unsplash.jpg
+image: /img/will-truettner-ipufjnrsye0-unsplash.jpg
 heading: Heading
 subheading: Subheading
 mainpitch:
