@@ -31,6 +31,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Runtime", name: "runtime", widget: "text", hint: "ex: 4:25 for Four minutes and 25 seconds"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown", hint: "Include soundcloud link anywhere you want it to appear embedded in post"}
