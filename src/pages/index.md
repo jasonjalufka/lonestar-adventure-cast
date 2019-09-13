@@ -29,6 +29,8 @@ intro:
 
         Kick back, grab a Lonestar, and enjoy some of these neat films made by
         some creative friends of ours.
+    - image: /img/img_1053.jpg
+      text: YEEE YEEE YALL. Drink Shiner and Lonestar errryday!
   heading: 'INTRO Heading: What we offer'
   description: >
     INTRO Description: Kaldi is the ultimate spot for coffee lovers who want to
