@@ -2,37 +2,33 @@
 templateKey: index-page
 title: Lonestar Adventure Cast
 image: /img/will-truettner-ipufjnrsye0-unsplash.jpg
-heading: Heading
-subheading: Subheading
+heading: Take a look at what we do
+subheading: 'A platform for all things Texas '
 mainpitch:
-  title: 'MAINPITCH: Title'
-  description: >-
-    MAINPITCH Description: Lonestar Adventure cast is Gaper epic park bump huck.
-    360 giblets saddle pow dirtbag derailleur. Bro stoked presta method frozen
-    chicken heads. Huck brain bucket chowder afterbang grind.
-description: 'Description: Lonestar Adventure Cast is...'
+  title: (required)
+  description: (required)
+description: (required)
 intro:
   blurbs:
     - image: /img/img_1102.jpg
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >2
+         (clock image for a link to podcast page?)
+        Tune into this Texas based adventure podcast that is hosted by
+        Christopher Colon, Roscoe Bertsch, & Joseph Bogorad as they showcase
+        local people, places, and there stories.
     - image: /img/img_1573.jpg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        (click image for a link to blog posts?)
+
+        With these blog posts we contemplate the inner workings of adventure,
+        community change, and what the hell is behind badassery. Read up on some
+        of our communities thoughts on these cool topics.
     - image: /img/img_1575.jpg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        (click image for link to video page?)
+
+        Kick back, grab a Lonestar, and enjoy some of these neat films made by
+        some creative friends of ours.
   heading: 'INTRO Heading: What we offer'
   description: >
     INTRO Description: Kaldi is the ultimate spot for coffee lovers who want to
