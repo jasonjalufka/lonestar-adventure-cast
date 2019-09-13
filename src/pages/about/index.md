@@ -2,6 +2,8 @@
 templateKey: about-page
 title: What is the Lonestar Adventure Cast?
 ---
+![](/img/img_3107.jpg)
+
 Lonestar Adventure is an audio-visual platform made to explore all things outdoors, environmental, and recreation in Texas. We produce podcasts, videos, and articles to give you an immersive experience into the stories, culture, and characters that surround the outdoor community of Texas. Enjoy the silly happenings of a bunch of Joe Shmoe's who work regular jobs, go to school, and enjoy spending our time outside!
 
 # Wanna help out?
