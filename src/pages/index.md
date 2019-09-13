@@ -11,12 +11,14 @@ description: (required)
 intro:
   blurbs:
     - image: /img/img_1102.jpg
+      pagelink: /podcast
       text: >2
          (clock image for a link to podcast page?)
         Tune into this Texas based adventure podcast that is hosted by
         Christopher Colon, Roscoe Bertsch, & Joseph Bogorad as they showcase
         local people, places, and there stories.
     - image: /img/img_1573.jpg
+      pagelink: /blog
       text: >
         (click image for a link to blog posts?)
 
@@ -24,12 +26,14 @@ intro:
         community change, and what the hell is behind badassery. Read up on some
         of our communities thoughts on these cool topics.
     - image: /img/img_1575.jpg
+      pagelink: /
       text: >
         (click image for link to video page?)
 
         Kick back, grab a Lonestar, and enjoy some of these neat films made by
         some creative friends of ours.
     - image: /img/img_1053.jpg
+      pagelink: /about
       text: YEEE YEEE YALL. Drink Shiner and Lonestar errryday!
   heading: 'INTRO Heading: What we offer'
   description: >
