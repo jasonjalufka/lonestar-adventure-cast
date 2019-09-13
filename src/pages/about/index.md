@@ -2,17 +2,14 @@
 templateKey: about-page
 title: What is the Lonestar Adventure Cast?
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+![](/img/img_3107.jpg)
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Lonestar Adventure is an audio-visual platform made to explore all things outdoors, environmental, and recreation in Texas. We produce podcasts, videos, and articles to give you an immersive experience into the stories, culture, and characters that surround the outdoor community of Texas. Enjoy the silly happenings of a bunch of Joe Shmoe's who work regular jobs, go to school, and enjoy spending our time outside!
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+# Wanna help out?
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Reach out to us if you have talents you would like to show off on this site. We are always looking for cool cats to get rad with, shoot photos and video, and share a thought or two through this platform. 
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+# What's coming up?
+
+We have a lot in store for this website. Content will be coming regularly as we hustle after long days behind a desk or studying up. Stay in school kids!

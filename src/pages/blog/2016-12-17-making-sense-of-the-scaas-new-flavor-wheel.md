@@ -8,12 +8,12 @@ description: >-
   adventure, and we will explore how traveling alone could be the challenge we
   need to grow.
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/img_2244.jpg
 tags:
   - flavor
   - tasting
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/img_2244.jpg)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
