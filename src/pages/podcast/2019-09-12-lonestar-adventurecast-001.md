@@ -8,25 +8,10 @@ description: >-
   Edinburgh.
 featuredpost: false
 featuredimage: /img/will-truettner-ipufjnrsye0-unsplash.jpg
-podcastlink: |-
-  https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001
-
-  https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-002
-
-  https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-003
-
-  https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-004
+podcastlink: 'https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001'
 tags:
   - podcast passion
 ---
 https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001
 
 Tune into this laidback conversation about the pursuit of passion, brought to you by the Lone Star Adventurecast crew & Special Guest Artist Glenn Edinburgh.
-
-https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-001
-
-https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-002
-
-https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-003
-
-https://soundcloud.com/user-434494160/lone-star-adventurecast-ep-004
