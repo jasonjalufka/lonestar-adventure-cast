@@ -3,8 +3,8 @@ import { graphql } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import Soundcloud from '../../components/Soundcloud'
-import calendar from '../../img/calendar-icon.svg'
-import clock from '../../img/clock-icon.svg'
+import calendar from '../../img/calendar.svg'
+import clock from '../../img/clock.svg'
 
 const PodcastIndexPage = ({ data }) => {
   const { edges: podcasts } = data.allMarkdownRemark
