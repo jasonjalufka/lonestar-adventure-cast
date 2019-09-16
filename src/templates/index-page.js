@@ -22,8 +22,8 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
+        backgroundPosition: `50% 80%`,
+        height: `50vh`
       }}
     >
       <div
@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
         style={{
           width: `100%`,
           height: `100%`,
-          backgroundColor: `rgba(0, 0, 0, 0.3)`,
+          backgroundColor: `rgba(0, 0, 0, 0.4)`,
           display: `flex`,
           flexDirection: `column`,
           justifyContent: `space-around`
@@ -53,7 +53,8 @@ export const IndexPageTemplate = ({
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
-              textAlign: 'center'
+              textAlign: 'center',
+              textShadow: `#0000004f 0px 0px 3px`
             }}
           >
             {title}
@@ -63,7 +64,8 @@ export const IndexPageTemplate = ({
             style={{
               color: 'white',
               lineHeight: '1',
-              padding: '0.25em'
+              padding: '0.25em',
+              textShadow: `#0000004f 0px 0px 3px`
             }}
           >
             {subheading}
