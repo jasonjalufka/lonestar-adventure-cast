@@ -10,7 +10,10 @@ description: >-
 featuredpost: true
 featuredimage: /img/img_1573.jpg
 tags:
-  - adventure blog post test
+  - adventure
+  - blog
+  - post
+  - test
 ---
 ## Lonestar Adventure Cast
 
