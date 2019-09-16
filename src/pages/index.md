@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Lonestar Adventure Cast
-image: /img/img_2603.jpg
+image: /img/will-truettner-ipufjnrsye0-unsplash.jpg
 heading: Take a look at what we do
 subheading: 'A platform for all things Texas '
 mainpitch:
