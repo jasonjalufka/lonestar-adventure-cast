@@ -16,17 +16,41 @@ const PodcastIndexPage = ({ data }) => {
           backgroundImage: `url('/img/img_1102.jpg')`
         }}
       >
+        <div
+        className='image-overlay'
+        style={{
+          width: `100%`,
+          height: `100%`,
+          backgroundColor: `rgba(0, 0, 0, 0.4)`,
+          display: `flex`,
+          flexDirection: `column`,
+          justifyContent: `space-around`
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            height: '150px',
+            lineHeight: '1',
+            justifyContent: 'space-around',
+            alignItems: 'center',
+            flexDirection: 'column'
+          }}
+        >
         <h1
           className='has-text-weight-bold is-size-1'
           style={{
-            boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-            backgroundColor: '#f40',
             color: 'white',
-            padding: '1rem'
+            lineHeight: '1',
+            padding: '0.25em',
+            textAlign: 'center',
+            textShadow: '#0000004f 0px 0px 3px'
           }}
         >
           Latest Podcasts
         </h1>
+        </div>
+      </div>
       </div>
       <section className='section'>
         <div className='container'>
