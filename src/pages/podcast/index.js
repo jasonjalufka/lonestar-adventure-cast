@@ -11,7 +11,7 @@ const PodcastIndexPage = ({ data }) => {
   return (
     <Layout>
       <div
-        className='full-width-image-container margin-top-0'
+        className='full-width-image-container margin-top-0 title'
         style={{
           backgroundImage: `url('/img/img_1102.jpg')`
         }}
