@@ -37,6 +37,20 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", hint: "Include soundcloud link anywhere you want it to appear embedded in post"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "film"
+    label: "Film"
+    folder: "src/pages/film"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "film-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown", hint: "youtube: https://www.youtube.com/watch?v=a4HPQPa5Zl4"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "pages"
     label: "Pages"
     files:
