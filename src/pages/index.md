@@ -5,31 +5,26 @@ image: /img/will-truettner-ipufjnrsye0-unsplash.jpg
 heading: Take a look at what we do
 subheading: 'A platform for all things Texas '
 mainpitch:
-  title: (required)
-  description: (required)
-description: (required)
+  title: ' '
+  description: ' '
+description: ' '
 intro:
   blurbs:
     - image: /img/img_1102.jpg
       pagelink: /podcast
-      text: >2
-         (clock image for a link to podcast page?)
+      text: >
         Tune into this Texas based adventure podcast that is hosted by
         Christopher Colon, Roscoe Bertsch, & Joseph Bogorad as they showcase
-        local people, places, and there stories.
+        local people, places, and their stories.
     - image: /img/img_1573.jpg
       pagelink: /blog
       text: >
-        (click image for a link to blog posts?)
-
         With these blog posts we contemplate the inner workings of adventure,
         community change, and what the hell is behind badassery. Read up on some
-        of our communities thoughts on these cool topics.
+        of our community's thoughts on these cool topics.
     - image: /img/img_1575.jpg
-      pagelink: /
+      pagelink: /film
       text: >
-        (click image for link to video page?)
-
         Kick back, grab a Lonestar, and enjoy some of these neat films made by
         some creative friends of ours.
     - image: /img/img_1053.jpg
