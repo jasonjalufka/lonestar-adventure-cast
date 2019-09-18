@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `50% 80%`,
-        height: `50vh`
+        height: `95vh`
       }}
     >
       <div
