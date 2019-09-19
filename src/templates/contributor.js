@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Background from '../img/background-pattern.svg'
 
 export const ContributorTemplate = ({
   name,
@@ -17,7 +18,12 @@ export const ContributorTemplate = ({
   return (
     <section className='section'>
       {helmet || ''}
-      <div className='container content'>
+      <div
+        className='container content'
+        style={{
+          backgroundImage: `url(${Background})`
+        }}
+      >
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <h1 className='title is-size-2 has-text-weight-bold'>{name}</h1>
@@ -75,6 +81,8 @@ export const pageQuery = graphql`
           firstName
           lastName
         }
+        location
+        role
         image {
           childImageSharp {
             fluid(maxWidth: 360, quality: 100) {
