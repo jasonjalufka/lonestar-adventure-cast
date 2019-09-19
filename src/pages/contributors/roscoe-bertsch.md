@@ -5,5 +5,7 @@ contributorName:
   firstName: Roscoe
   lastName: Bertsch
 image: /img/img_1573.jpg
+location: 'Seguin, TX'
+role: Founder
 ---
 
