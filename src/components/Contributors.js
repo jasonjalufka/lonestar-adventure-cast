@@ -47,7 +47,9 @@ class Contributors extends React.Component {
                   </span>
                 </h3>
                 <p>
-                  <i style={{ backgroundColor: 'white' }}>Web Developer</i>
+                  <i style={{ backgroundColor: 'white' }}>
+                    {contributor.frontmatter.role}
+                  </i>
                 </p>
               </div>
             </div>
