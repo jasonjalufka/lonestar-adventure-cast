@@ -14,10 +14,10 @@ class Contributors extends React.Component {
           contributors.map(({ node: contributor }) => (
             <div className='column is-3' style={{ paddingBottom: '2rem' }}>
               <div
-                className='image-cropper'
+                className='image-cropper profile-pic'
                 style={{
-                  width: '200px',
-                  height: '200px',
+                  width: '175px',
+                  height: '175px',
                   position: 'relative',
                   overflow: 'hidden',
                   borderRadius: '50%',
@@ -25,13 +25,15 @@ class Contributors extends React.Component {
                   border: '1px solid #fe4400'
                 }}
               >
-                <PreviewCompatibleImage
-                  profilePic
-                  imageInfo={{
-                    image: contributor.frontmatter.image,
-                    alt: `profile picture for ${contributor.frontmatter.fullName}`
-                  }}
-                />
+                <Link to={contributor.fields.slug}>
+                  <PreviewCompatibleImage
+                    profilePic
+                    imageInfo={{
+                      image: contributor.frontmatter.image,
+                      alt: `profile picture for ${contributor.frontmatter.fullName}`
+                    }}
+                  />
+                </Link>
               </div>
               <div className='container has-text-centered'>
                 <h3
@@ -39,7 +41,6 @@ class Contributors extends React.Component {
                     fontWeight: '700',
                     padding: '15px 0 0 0',
                     fontSize: '26px'
-                    // backgroundColor: 'white'
                   }}
                 >
                   <span style={{ backgroundColor: 'white' }}>
@@ -80,6 +81,7 @@ export default () => (
                 }
                 location
                 role
+                bio
                 image {
                   childImageSharp {
                     fluid(maxWidth: 360, quality: 100) {
