@@ -67,7 +67,7 @@ const PodcastPost = ({ data }) => {
         description={post.frontmatter.description}
         html={post.htmlAst}
         helmet={
-          <Helmet titleTemplate='%s | Blog'>
+          <Helmet titleTemplate='%s | Podcast'>
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name='description'
