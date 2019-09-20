@@ -12,13 +12,14 @@ export default class ContributorsIndexPage extends React.Component {
           <div
             className='container'
             style={{
-              background: `url(${Background})`
+              background: `url(${Background})`,
+              backgroundSize: `cover`
             }}
           >
             <div className='columns'>
               <div className='column is-6'>
                 <div className='section'>
-                  <h2 className='title is-size-3 has-text-weight-bold is-bold-light white-blur'>
+                  <h2 className='title is-size-1 has-text-weight-bold white-blur'>
                     Contributors
                   </h2>
                 </div>
