@@ -41,8 +41,8 @@ exports.createPages = ({ actions, graphql }) => {
         ),
         // additional data can be passed via context
         context: {
-          id,
-        },
+          id
+        }
       })
     })
 
@@ -65,8 +65,8 @@ exports.createPages = ({ actions, graphql }) => {
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
         context: {
-          tag,
-        },
+          tag
+        }
       })
     })
   })
@@ -81,7 +81,63 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value
     })
   }
+}
+
+exports.sourceNodes = ({ actions, getNodes, getNode }) => {
+  console.log('Creating Author Links...')
+  const { createNodeField } = actions
+
+  const postsOfAuthors = {}
+  // iterate through all markdown nodes to link blogs to author, build author index
+  const markdownNodes = getNodes()
+    .filter(node => node.internal.type === 'MarkdownRemark')
+    .forEach(node => {
+      if (node.frontmatter.author) {
+        console.log(
+          'Found blog post node with *author* field in frontmatter: ',
+          node.frontmatter.author
+        )
+        const authorNode = getNodes().find(
+          node2 =>
+            node2.internal.type === 'MarkdownRemark' &&
+            node2.frontmatter.fullName === node.frontmatter.author
+        )
+
+        if (authorNode) {
+          console.log('authorNode found for blog post author: ', authorNode)
+          createNodeField({
+            node,
+            name: 'author',
+            value: authorNode.id
+          })
+          console.log(
+            'Created authorNode Field author with value: ',
+            authorNode.id
+          )
+
+          // if it's the first time for this author init empty array for their posts
+          if (!(authorNode.id in postsOfAuthors)) {
+            console.log("Creating empty array for authors' posts")
+            postsOfAuthors[authorNode.id] = []
+          }
+          // add blog post to this author
+          console.log('Adding blog post to author')
+          postsOfAuthors[authorNode.id].push(node.id)
+        }
+      } else {
+        console.log('No Authors found on Blog Posts')
+      }
+    })
+
+  Object.entries(postsOfAuthors).forEach(([authorNodeId, postIds]) => {
+    console.log('Extending node field for author: ', authorNodeId)
+    createNodeField({
+      node: getNode(authorNodeId),
+      name: 'posts',
+      value: postIds
+    })
+  })
 }
