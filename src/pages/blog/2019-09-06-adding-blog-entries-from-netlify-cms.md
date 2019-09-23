@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Staying Driven
 date: 2019-09-06T22:39:03.398Z
+author: Roscoe Bertsch
 description: >-
   In a world of insta stars and complete savages in the limelight of social
   media, how does one stay driven? Even one days of wanting to shovel cosmic
@@ -15,6 +16,7 @@ tags:
   - post
   - test
 ---
+
 ## Lonestar Adventure Cast
 
 This is a sample blog post for the Lonestar Adventure Cast.
@@ -25,6 +27,6 @@ This is a sample blog post for the Lonestar Adventure Cast.
 console.log("Hello, world.");
 ```
 
-* Testing a list
-* Still testing
-* Looking good
+- Testing a list
+- Still testing
+- Looking good
