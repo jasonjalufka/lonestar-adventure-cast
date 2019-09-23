@@ -18,10 +18,16 @@ export default class ContributorsIndexPage extends React.Component {
           >
             <div className='columns'>
               <div className='column is-6'>
-                <div className='section'>
-                  <h2 className='title is-size-1 has-text-weight-bold white-blur'>
+                <div
+                  className='section is-size-2-mobile is-size-1 has-text-centered'
+                  style={{
+                    paddingRight: '0',
+                    paddingLeft: '0'
+                  }}
+                >
+                  <h1 className='has-text-weight-bold white-blur'>
                     Contributors
-                  </h2>
+                  </h1>
                 </div>
               </div>
             </div>
