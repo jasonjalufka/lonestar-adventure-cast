@@ -107,5 +107,6 @@ collections:
           - {label: "First Name", name: "firstName", widget: "string"}
           - {label: "Last Name", name: "lastName", widget: "string"}
       - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Location", name: "location", widget: "string", hint: "ex: Austin, TX"}
       - {label: "Role", name: "role", widget: "string", hint: "What do they do? e.g. Photographer, Musician, Climber, etc"}
