@@ -87,7 +87,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 exports.sourceNodes = ({ actions, getNodes, getNode }) => {
-  console.log('Creating Author Links...')
   const { createNodeField } = actions
 
   const postsOfAuthors = {}
@@ -96,10 +95,6 @@ exports.sourceNodes = ({ actions, getNodes, getNode }) => {
     .filter(node => node.internal.type === 'MarkdownRemark')
     .forEach(node => {
       if (node.frontmatter.author) {
-        console.log(
-          'Found blog post node with *author* field in frontmatter: ',
-          node.frontmatter.author
-        )
         const authorNode = getNodes().find(
           node2 =>
             node2.internal.type === 'MarkdownRemark' &&
@@ -107,33 +102,23 @@ exports.sourceNodes = ({ actions, getNodes, getNode }) => {
         )
 
         if (authorNode) {
-          console.log('authorNode found for blog post author: ', authorNode)
           createNodeField({
             node,
             name: 'author',
             value: authorNode.id
           })
-          console.log(
-            'Created authorNode Field author with value: ',
-            authorNode.id
-          )
 
           // if it's the first time for this author init empty array for their posts
           if (!(authorNode.id in postsOfAuthors)) {
-            console.log("Creating empty array for authors' posts")
             postsOfAuthors[authorNode.id] = []
           }
           // add blog post to this author
-          console.log('Adding blog post to author')
           postsOfAuthors[authorNode.id].push(node.id)
         }
-      } else {
-        console.log('No Authors found on Blog Posts')
       }
     })
 
   Object.entries(postsOfAuthors).forEach(([authorNodeId, postIds]) => {
-    console.log('Extending node field for author: ', authorNodeId)
     createNodeField({
       node: getNode(authorNodeId),
       name: 'posts',

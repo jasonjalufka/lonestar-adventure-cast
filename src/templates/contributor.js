@@ -1,13 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link, withPrefix } from 'gatsby'
+import { graphql, withPrefix } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Background from '../img/background-pattern.svg'
-import LocationPin from '../img/location.svg'
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import vimeo from '../img/social/vimeo.svg'
+import ProfileArticles from '../components/ProfileArticles'
+import '../components/all.sass'
 
 export const ContributorTemplate = ({
   name,
@@ -15,34 +16,27 @@ export const ContributorTemplate = ({
   lastName,
   image,
   role,
+  social,
   location,
   bio,
+  posts,
   helmet
 }) => {
   return (
-    <section className='section'>
-      {helmet || ''}
+    <>
       <div
-        className='container content'
+        className='full-width-image-container margin-top-0 contributor-background-image'
         style={{
-          backgroundImage: `url(${Background})`,
-          minHeight: '80vh'
+          backgroundImage: `url('/img/img_1156.jpg')`,
+          backgroundPositionY: '50%'
         }}
-      >
+      />
+
+      <section className='section' style={{ marginTop: '-140px' }}>
+        {helmet || ''}
         <div className='columns'>
-          <div className='column is-3'>
-            <div
-              className='image-cropper profile-pic'
-              style={{
-                width: '175px',
-                height: '175px',
-                position: 'relative',
-                overflow: 'hidden',
-                borderRadius: '50%',
-                margin: 'auto',
-                border: '1px solid #fe4400'
-              }}
-            >
+          <div className='column is-4'>
+            <div className='image-cropper profile-pic contributor-image'>
               <PreviewCompatibleImage
                 profilePic
                 imageInfo={{
@@ -52,60 +46,43 @@ export const ContributorTemplate = ({
               />
             </div>
           </div>
-          <div className='column' style={{ alignSelf: 'center' }}>
-            <div className='columns is-multiline has-text-centered-touch'>
-              <div className='column is-12'>
-                <h1
-                  className='has-text-weight-bold'
-                  style={{ marginBottom: '0' }}
-                >
+          <div className='column contributor-details-column'>
+            <div className='columns is-multiline contributor-details'>
+              <div className='column is-12 contributor-name'>
+                <h1 className='is-serif' style={{ marginBottom: '0' }}>
                   {name}
                 </h1>
               </div>
-              <div
-                className='column is-12'
-                style={{ paddingTop: '0', fontSize: '18px' }}
-              >
-                <i>{role}</i>
+              <div className='column is-12 contributor-role is-regular'>
+                {role}
               </div>
-              <div className='column is-12' style={{ paddingTop: '0' }}>
+              {social && (
                 <div
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    color: '#9B9B9B',
-                    fontSize: '16px'
-                  }}
+                  className='column is-12 contributor-role is-regular'
+                  style={{ paddingTop: '5px' }}
                 >
-                  <p
-                    className='has-text-centered-touch'
-                    style={{ width: '100%' }}
-                  >
-                    <span>
+                  {social.map((app, key) => (
+                    <a key={key} title={app.appName} href={app.link}>
                       <img
-                        src={LocationPin}
-                        alt='location pin'
+                        src={app.appName}
+                        alt={app.appName}
                         style={{
-                          width: '16px',
-                          marginRight: '6px'
+                          width: '1em',
+                          height: '1em',
+                          marginRight: '15px'
                         }}
                       />
-                    </span>
-                    {location}
-                  </p>
+                    </a>
+                  ))}
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
         <div className='columns'>
-          <div className='column is-10 is-offset-1'>
+          <div className='column contributor-bio'>
             <article
               style={{
-                borderLeft: '3px solid #ff4400',
-                margin: '0 1rem 0 1rem',
-                padding: '1rem 0 1rem 1rem',
-                backgroundColor: 'white',
                 fontSize: '18px'
               }}
             >
@@ -113,8 +90,9 @@ export const ContributorTemplate = ({
             </article>
           </div>
         </div>
-      </div>
-    </section>
+        <ProfileArticles posts={posts} />
+      </section>
+    </>
   )
 }
 
@@ -131,6 +109,7 @@ const ContributorProfile = ({ data }) => {
         location={contributor.frontmatter.location}
         role={contributor.frontmatter.role}
         bio={contributor.frontmatter.bio}
+        posts={contributor.fields.posts ? contributor.fields.posts : ''}
         helmet={
           <Helmet titleTemplate='%s | Profile'>
             <title>{`${contributor.frontmatter.fullName}`}</title>
@@ -165,6 +144,23 @@ export const pageQuery = graphql`
       id
       fields {
         slug
+        posts {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 360, quality: 30) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
       }
       frontmatter {
         fullName
