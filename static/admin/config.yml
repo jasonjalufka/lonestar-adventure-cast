@@ -98,6 +98,7 @@ collections:
     folder: "src/pages/contributors"
     create: true
     slug: "{{slug}}"
+    preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contributor"}
       - {label: "Name", name: "fullName", widget: "string", hint: "ex: John Doe"}
