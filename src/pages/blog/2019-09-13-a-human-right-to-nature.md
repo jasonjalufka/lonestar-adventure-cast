@@ -13,11 +13,8 @@ featuredpost: false
 featuredimage: /img/mick-haupt-a0gv-ygm8iy-unsplash.jpg
 tags:
   - nature
-  - natureheals
-  - RichardLouv
-  - ganggang
+  - health
 ---
-
 [Nature is a human right](https://www.sierraclub.org/sierra/2019-3-may-june/feature/outdoors-for-all-nature-is-a-human-right?fbclid=IwAR0wJ4lzZwf7nvTM83H_xw53N66R32b4PWWm7g_nUgK-D45tkLERH7a4LcE)
 
 ![](/img/will-truettner-ipufjnrsye0-unsplash.jpg)
