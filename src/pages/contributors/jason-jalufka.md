@@ -4,7 +4,7 @@ fullName: Jason Jalufka
 contributorName:
   firstName: Jason
   lastName: Jalufka
-image: /img/956b95c4-ec7d-4c06-966b-ddf3fd70501f.jpeg
+image: /img/jason.png
 bio: >-
   Jason Jalufka is the brain behind the design of this website. A long time
   friend of Roscoe, smart guy, and as skillfully creative as his programming,
