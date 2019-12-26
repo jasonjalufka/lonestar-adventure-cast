@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import heroLogo from '../img/Lonestar Adventure Cast.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -31,7 +32,7 @@ export const IndexPageTemplate = ({
         style={{
           width: `100%`,
           height: `100%`,
-          backgroundColor: `rgba(0, 0, 0, 0.4)`,
+          backgroundColor: `rgba(0, 0, 0, 0.7)`,
           display: `flex`,
           flexDirection: `column`,
           justifyContent: `space-around`
@@ -47,7 +48,8 @@ export const IndexPageTemplate = ({
             flexDirection: 'column'
           }}
         >
-          <h1
+          <img src={heroLogo} alt='Lonestar Adventure Cast' style={{ width: '50%' }} />
+          {/* <h1
             className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
             style={{
               color: 'white',
@@ -57,9 +59,9 @@ export const IndexPageTemplate = ({
               textShadow: `#0000004f 0px 0px 3px`
             }}
           >
-            {title}
-          </h1>
-          <h3
+            {heroLogo}
+          </h1> */}
+          {/* <h3
             className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'
             style={{
               color: 'white',
@@ -69,7 +71,7 @@ export const IndexPageTemplate = ({
             }}
           >
             {subheading}
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>
