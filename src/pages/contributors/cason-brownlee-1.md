@@ -13,7 +13,9 @@ bio: >-
   His website and socials are linked below! 
 
 
+
   https://www.casonbrownlee.com/
+
 
   Insta: casonbrownleecreative
 location: 'Boulder, CO'
