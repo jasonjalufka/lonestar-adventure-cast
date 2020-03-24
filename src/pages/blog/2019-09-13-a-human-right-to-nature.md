@@ -8,7 +8,10 @@ description: >
   between humans and the natural world. His work is praised amongst many
   different professions. Read into his article on our human right to nature, and
   how a doctor in Berkley, CA is paving the way for a new kind of health
-  treatment.
+  treatment. 
+
+
+  Click the hyperlink below to read the article now. 
 featuredpost: false
 featuredimage: /img/mick-haupt-a0gv-ygm8iy-unsplash.jpg
 tags:
