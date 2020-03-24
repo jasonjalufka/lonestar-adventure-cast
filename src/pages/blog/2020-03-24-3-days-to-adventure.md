@@ -1,0 +1,29 @@
+---
+templateKey: blog-post
+title: '3 Days to Adventure '
+date: 2020-03-24T16:24:04.722Z
+author: Roscoe Bertsch
+description: >-
+  Here are a few idea's to scratch your adventure itch by being a weekend
+  warrior!
+featuredpost: false
+featuredimage: /img/img_1573.jpg
+tags:
+  - weekendwarrior  Local travel
+---
+\    The lust for travel, adventure, and the freedom of no responsibilities that come with life on the road is something that is unparalleled even when compared to the most cushy of remote jobs. You are free to do as you please, drink beer for dinner 5 nights a week, and stay up late just to wake up at dawn to start the approach to the crag or the climb to an IMBA Epic ride. Life on the road sure is the dream for many likeminded individuals that pursue the outdoors, but sadly, in a capitalist economy system fueled by the hussle and bussle of 9-5’s, it just isn’t always possible.
+
+\
+	It’s easy to spend our weekends by the river, with a sixer of Lonestar and our closest buddies, but sometimes we have that itch to do something rad that we just can’t satisfy. So how do we scratch that adventure itch even when we got school or work on Monday? The right question to be asking is what resources to do you have around you that you can take advantage of?
+
+
+	If you live in any reasonably big town in Texas, chances are it’s within a stones throw of a river. It’s only fitting for a Texan to enjoy the river, but don’t you want a new view of your favorite water source? The best way to float into new scenery is to load up your yak or a canoe and go for an overnighter/multi-night trip on the water. I truly love the San Marcos river more than just about any other place, and I had now idea just how flippin cool it really was until my bud Chris drug me into a boat and we paddled 30 miles over two days. Even just a few river miles in we were hitting small rapids, watching cows hydrate from the banks, and paddling through a jungle of growth. I could have been on the Amazon river for all I knew! Taking an over-night trip down your local river can offer that slice of quiet tranquility you search for in the high Sierra, and it’ll give you a different look at what your local river system is like in that stretch of water. So instead of drinkin your beer all day, load it in your boat and get to paddling to new views you may not have seen otherwise. 
+
+
+	Now what if you don’t live near a water source? Well, your missin out I’ll tell ya that. Although, that doesn’t mean you have to shy away from a weekend of adventure. All you got to do is find a reason to start pedaling, dammit. I’m talking about a weekend bikepacking trip. Gravel grinding seems to be the new fad nowadays, and in a country like Texas, we are sure not short of those around here with all those ranches. Chris and I decided it’d be fun to go to the renaissance festival for the first time. What made it even more of an experience is that we biked from our apartments to the Bastrop renaissance fest. We loaded up our “panniers” (they were milk creates) and Walmart bike racks and pedaled our way towards the pines. As the sun fell over the horizon, we set up camp underneath a willow tree just off the road under a bridge. We heard the slight hum of the occasional car, and the buzzing of summer cicadas in the tree, and watched the sky turn from a cotton candy salmon hue to a florescent summer evening spectacle. We woke up early the next day and rode our way into the renaissance, well more like rolled as Chris’ spoke busted and tore his derailleur off! Nonetheless we got freaky at the medieval party. This is just a small example of how you can turn an ordinary weekend event into a full-on adventure experience. Grab a bike and a backpack and head out down the country roads for a slow-paced visual experience of your surroundings, you never know what you’re missing. 
+
+
+	One last, and rather radical suggestion, is to take an unconventional ride to your local crag. Chris and I climb all the time at Enchanted Rock State Natural Area just outside Fredericksburg, Texas. Instead of shooting down 290, going probably 90, we decided to load up our backpacks with a bit more than just climbing gear and walk out to the street and start thumbing it. Now, I’m sure all our parents would say that hitchhiking is virtually dead and not to mention dangerous. A statement I tend to disagree with. We put our trust in the kindness of strangers to help us get to our destination in time for a couple of afternoon pitches and to whip up a nice meal of beans and rice. When hitchhiking you do have to be cautious of the people who pull over and offer you a ride, and if you have any sense of good judgement and the slightest intuition on people’s intentions, you can usually weed out the weirdos. We caught four rides with some amazingly kind and sociable people on our way to E-Rock, and not once did we ever feel caught in a weird situation. I think the meaning of our trip that weekend was less about getting to go climb, and more about finding the kindness of humanity again, and seeing how loving and helping strangers can be despite our perceived perspectives on the situation. I don’t think this is something I should encourage you to do, but rather offer a perspective on a form of travel frowned upon, and the unlikely interactions you would find hitchhiking around. With experiences like Chris and I had on this trip, it’s hard not to look upon humanity with a positive perspective, as long as you keep the positivity flowing in the people you surround yourself with. 
+
+
+	Well there it is folks, a few ideas for you to scratch that nagging itch of wanting to adventure when your tied down with a job, school, or other responsibilities. Even though all of these are in urban settings, just be sure you prepare as well as you would for any other adventure. Get out this weekend, and be that friend to drag your homie in with you on a memorable weekend adventure.
